@@ -1,0 +1,10 @@
+Excercise 3.1. Move the last line of this program to the top, so the function call appears before the definitions. Run the program and see what error message you get.
+
+Traceback (most recent call last):
+  File "c:\Users\Jihye\Desktop\TP-Chapter3.py", line 3, in <module>
+    repeat_lyrics()
+NameError: name 'repeat_lyrics' is not defined
+
+Exercise 3.2. Move the function call back to the bottom and move the definition of print_lyrics after the definition of repeat_lyrics. What happens when you run this program?
+
+It runs properly.
